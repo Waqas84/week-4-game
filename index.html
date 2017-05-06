@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CrystalsCollector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div>
+	<h1>CrystalCollector!</h1>
+</div>
+
+<div id="game-rules">
+
+<p>You will be given a randome number at the start of the<br>geme.</p>
+<br>
+<p>There are four crystals below. By clicking on a crystal you<br>will add a specific amount of points to your total score.</p>
+<br>
+<p>You win the game by matching your total score to randome<br>number, you lose the game if your total score goes above<br>the randome number.</p>
+<br>
+<p>The value of each crystal is hidden from you until you<br>click on it.</p>
+<br>
+<p>Each time when the game starts, the game will change the<br>values of each crystal</p>	
+
+</div>
+
+<div class="clear-float"></div>
+
+<div id="computer-number"></div>
+
+<div id="wins-losses">
+	<p>Wins:<span id="wins"> 0</span></p>
+	<p>Losses:<span id="losses"> 0</span></p>
+</div>
+	
+	<div class="clear-float"></div>
+
+<div id="crystal-images" >
+
+	<img id="jewel-1" src="assets/images/image-1.jpeg" alt="" height="85" width="85">
+	<img id="jewel-2" src="assets/images/images-2.jpeg" alt="" height="85" width="85">
+	<img id="jewel-3" src="assets/images/image-3.jpeg" alt="" height="85" width="85">
+	<img id="jewel-4" src="assets/images/image-4.jpeg" alt="" height="85" width="85">
+
+</div>
+
+
+<div id="player-total-score">Your total score is:
+</div>
+
+<div id="player-score">0</div>
+	
+
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+	background: #a1ffce; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a1ffce, #faffd1); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a1ffce, #faffd1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	background: #d38312;
+	color: white;
+	margin: 5px 5px 0 5px;
+	padding: 20px 5px;
+	font-size: 24px;
+	font-weight: normal;
+	display:inline-block;
+}
+
+#game-rules {
+	background: #ffe89a;
+	margin: 5px 5px 0 5px;
+	color: #56ab2f;
+	display: inline-block;
+	padding: 20px 5px 100px 5px;
+
+}
+
+#computer-number {
+	background: #56ab2f;
+	width: 175px;
+	height: 70px;
+	margin: 5px 5px 0 5px;
+	padding: 5px;
+	float: left;
+}
+
+#wins-losses {
+	background: #2BC0E4;
+	float: left;
+	margin: 5px 5px 0 5px;
+	height: 60px;
+	padding: 10px 5px;
+	display: inline-block;
+	
+	}
+
+#wins-losses p {
+	line-height: 175%;
+	font-size: 14px;
+
+}
+
+.clear-float {
+	clear: both;
+}
+
+#crystal-images {
+	margin: 5px 5px 0 5px;
+}
+
+#player-total-score {
+	background: #3fada8;
+	margin: 5px 5px 0 5px;
+	display: inline-block;
+	width: 175px;
+	padding: 5px;
+	color: white;
+}
+
+#player-score {
+	background: #3fada8;
+	width: 175px;
+	height: 70px;
+	margin: 5px 5px 10px 5px;
+	padding: 5px;
+	color: white;
+}
